@@ -11770,7 +11770,7 @@
 		)
 	)
 	(sheet
-		(at 233.934 36.83)
+		(at 246.38 107.442)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11786,7 +11786,7 @@
 		)
 		(uuid "10b6e54a-04b5-47c9-80e8-c4366fa1ad6e")
 		(property "Sheetname" "Connections"
-			(at 233.934 36.1184 0)
+			(at 246.38 106.7304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11797,7 +11797,7 @@
 			)
 		)
 		(property "Sheetfile" "Connections.kicad_sch"
-			(at 233.934 41.2246 0)
+			(at 246.38 111.8366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11816,7 +11816,7 @@
 		)
 	)
 	(sheet
-		(at 238.506 79.756)
+		(at 245.618 34.036)
 		(size 19.812 12.446)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11832,7 +11832,7 @@
 		)
 		(uuid "6f4bab28-03bd-487e-a32f-f7eb7929ac89")
 		(property "Sheetname" "CAN"
-			(at 238.506 79.0444 0)
+			(at 245.618 33.3244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11843,7 +11843,7 @@
 			)
 		)
 		(property "Sheetfile" "CanTran.kicad_sch"
-			(at 238.506 92.7866 0)
+			(at 245.618 47.0666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
