@@ -1021,6 +1021,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 135.636 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89fc8acf-f039-4b4e-b3e4-1078d0aadb2b")
+	)
+	(text "UART with isolator "
+		(exclude_from_sim no)
+		(at 172.212 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3eda904-5627-466c-8874-2a61400e3c32")
+	)
 	(text "UART with isolator "
 		(exclude_from_sim no)
 		(at 173.482 20.066 0)
@@ -1033,7 +1053,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 131.826 36.322 0)
+		(at 135.89 36.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1063,6 +1083,76 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbd0d97-1cf9-4274-aea3-274f2ecb36d2")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6cff75-a075-4c93-ae83-018e086593bd")
+	)
+	(wire
+		(pts
+			(xy 156.21 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4022d210-f424-4edf-904b-2a62b6edc5c8")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4286222b-38a2-4a4f-a265-79c02b204c41")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d2fc89-c45d-4ded-b222-4db38e3a02c4")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e036e6-5d24-4843-a721-0f64e345f1df")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b02815-39f4-452b-a7be-5a6515c5357a")
+	)
+	(wire
+		(pts
 			(xy 185.42 33.02) (xy 194.31 33.02)
 		)
 		(stroke
@@ -1083,6 +1173,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 76.2) (xy 163.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619f4bc7-03b2-4c43-aad8-9e3b49b7e734")
+	)
+	(wire
+		(pts
 			(xy 162.56 41.91) (xy 162.56 40.64)
 		)
 		(stroke
@@ -1100,6 +1200,16 @@
 			(type default)
 		)
 		(uuid "7e76ddcb-5e0d-409d-b33b-532de78205a7")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8200f431-f9d7-4b1c-af96-f9a4fe8ff235")
 	)
 	(wire
 		(pts
@@ -1163,6 +1273,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 80.01) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e9c409-df58-48b8-bd63-a95d2b75fddc")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e396b9a1-d6c9-43ee-9d55-0b5b97c183c6")
+	)
+	(wire
+		(pts
 			(xy 240.03 27.94) (xy 242.57 27.94)
 		)
 		(stroke
@@ -1170,6 +1300,16 @@
 			(type default)
 		)
 		(uuid "e79a9493-7ce0-40c9-a96c-08c0492b48ac")
+	)
+	(wire
+		(pts
+			(xy 184.15 71.12) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb948123-9785-446d-86c0-56c11311075e")
 	)
 	(wire
 		(pts
@@ -1205,9 +1345,57 @@
 			)
 		)
 	)
-	(global_label "SCL0"
+	(global_label "GP15 SPI1_TX"
 		(shape input)
-		(at 121.92 36.83 0)
+		(at 219.71 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0795fe20-2e03-4ada-b0d0-ccb159d4bddb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.3597 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP5 UART1_RX"
+		(shape input)
+		(at 156.21 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07ac3e7e-3102-4bdd-8181-3f46893d9c61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1944 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP25 SCL0"
+		(shape input)
+		(at 120.65 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1215,9 +1403,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2d528460-6cdf-461b-afa7-e0edfd823197")
+		(uuid "1dfcc5e8-0110-4956-b97b-bd9431ad004f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6223 36.83 0)
+			(at 134.2789 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1229,7 +1417,55 @@
 			)
 		)
 	)
-	(global_label "UART0_RX"
+	(global_label "GP4 UART1_TX"
+		(shape input)
+		(at 156.21 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "236948a4-fb43-406c-8b76-387db64156ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4968 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP3 SCL1"
+		(shape input)
+		(at 121.92 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d528460-6cdf-461b-afa7-e0edfd823197")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3394 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP13 UART0_RX"
 		(shape input)
 		(at 157.48 35.56 180)
 		(fields_autoplaced yes)
@@ -1241,7 +1477,7 @@
 		)
 		(uuid "5187cbe1-3f2c-4fc0-944b-4c4e7040d218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1815 35.56 0)
+			(at 139.2549 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1253,7 +1489,7 @@
 			)
 		)
 	)
-	(global_label "UART0_TX"
+	(global_label "GP12 UART0_TX"
 		(shape input)
 		(at 157.48 38.1 180)
 		(fields_autoplaced yes)
@@ -1265,7 +1501,7 @@
 		)
 		(uuid "7d7d88b8-f2a8-4ef4-a11d-96dbc34f3ebc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4839 38.1 0)
+			(at 139.5573 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1277,7 +1513,7 @@
 			)
 		)
 	)
-	(global_label "SDA0"
+	(global_label "GP2 SDA1"
 		(shape input)
 		(at 121.92 34.29 0)
 		(fields_autoplaced yes)
@@ -1289,7 +1525,31 @@
 		)
 		(uuid "8ed6f546-ba80-46e4-b1f3-d71162c63a14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6828 34.29 0)
+			(at 134.3999 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP24 SDA0"
+		(shape input)
+		(at 120.65 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e7605f3-8b29-48ce-a0be-e2076274faf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3394 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1322,6 +1582,156 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GP8 SPI1_RX"
+		(shape input)
+		(at 219.71 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d52fcb9a-8222-4445-a10a-a5581961f666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.2668 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP14 SPI1_SCK"
+		(shape input)
+		(at 219.71 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e93534f4-7bbd-4407-a08a-67e30309acaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7873 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP9 SPI1_CS"
+		(shape input)
+		(at 219.71 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f460472a-3ec2-4ddd-9b23-d9e6d3959cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.2668 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0942a079-9583-449d-9ea7-2b074f23de8c")
+		(property "Reference" "#PWR037"
+			(at 161.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e98879a-f6a9-4083-8fc6-e80646a3487c")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "#PWR037")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1505,6 +1915,252 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3b298d-45b1-49ba-9174-aa707dfb2429")
+		(property "Reference" "#PWR036"
+			(at 161.29 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 161.29 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f51a9e3d-d844-4fc0-863f-234114e66bf5")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 109.22 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f7d9908-0df0-4a7c-a6d8-2688810f1781")
+		(property "Reference" "J5"
+			(at 109.22 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 109.22 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1bcc8bff-149d-432d-8351-11cb405913ce")
+		)
+		(pin "1"
+			(uuid "d2dee8c3-9154-4008-b8f7-b222ee086fcd")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 224.79 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6697d433-6185-492d-8166-e6bcd669eaae")
+		(property "Reference" "J8"
+			(at 227.33 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 227.33 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 224.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 224.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4fd64901-a575-4b90-82a9-13b41a76def4")
+		)
+		(pin "1"
+			(uuid "45d6d42b-554c-48ba-917a-21d5869cd7fe")
+		)
+		(pin "3"
+			(uuid "e6c7eefb-0079-427c-be15-772983049ab2")
+		)
+		(pin "4"
+			(uuid "8242c519-4874-40c7-824d-dc3d5a74b098")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 41.91 0)
 		(unit 1)
@@ -1577,6 +2233,105 @@
 			(project "LunaBreakout"
 				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:ISO7721D")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e1ae23-c3f1-4405-9179-d21b409f0f63")
+		(property "Reference" "U6"
+			(at 173.99 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO7721D"
+			(at 173.99 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7721.pdf"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low Power Dual-Channel 1/1 Digital Isolator, 100Mbps 11ns, Fail-Safe High, SOIC-8 (150mil)"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "a08a4500-1b32-4485-b601-d3ad74654089")
+		)
+		(pin "1"
+			(uuid "f436f118-5e69-4331-b760-bae2c7f290f5")
+		)
+		(pin "8"
+			(uuid "c3ce782e-0d09-431d-a04f-59c6cf264362")
+		)
+		(pin "7"
+			(uuid "14e229f8-7973-456d-8507-1db05aef7a37")
+		)
+		(pin "4"
+			(uuid "8ae178e6-16f8-4321-9491-1719c1155f5f")
+		)
+		(pin "5"
+			(uuid "c7a421b0-9486-4916-9213-e16ae387a5bd")
+		)
+		(pin "2"
+			(uuid "4def7fe9-e76c-4d76-aaa1-77ff8b0d9e93")
+		)
+		(pin "3"
+			(uuid "152c7f53-ab84-4261-a0d4-5fb7914d1b1f")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1743,6 +2498,94 @@
 			(project "LunaBreakout"
 				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 198.12 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf1568d8-5eb9-413e-aa3c-b2cd243fe030")
+		(property "Reference" "J7"
+			(at 200.66 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 200.66 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f6eae42e-2ce3-401d-a099-92f1d5bc0a53")
+		)
+		(pin "1"
+			(uuid "66ad5662-52d4-415a-8dbd-0cd599d6f243")
+		)
+		(pin "2"
+			(uuid "42ace1db-4adb-4a62-9552-9eadf92b4c9b")
+		)
+		(pin "3"
+			(uuid "ecd687f7-69d9-4d7b-afa2-115811d0ed93")
+		)
+		(instances
+			(project "LunaBreakout"
+				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693/10b6e54a-04b5-47c9-80e8-c4366fa1ad6e"
+					(reference "J7")
 					(unit 1)
 				)
 			)

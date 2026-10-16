@@ -1603,7 +1603,7 @@
 	)
 	(text "Pulled low when recive message"
 		(exclude_from_sim no)
-		(at 166.624 80.01 0)
+		(at 157.734 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2019,7 +2019,7 @@
 		)
 		(uuid "fcd3c105-81bd-4c38-b6f1-f4409ed3667d")
 	)
-	(global_label "SPI0_CS"
+	(global_label "GP17 SPI0_CS"
 		(shape input)
 		(at 194.31 57.15 180)
 		(fields_autoplaced yes)
@@ -2031,7 +2031,7 @@
 		)
 		(uuid "246c1f3a-d138-44c3-a124-3e5c8e257b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.5839 57.15 0)
+			(at 177.6573 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2091,7 @@
 			)
 		)
 	)
-	(global_label "CAN_INT"
+	(global_label "GP10 CAN_INT"
 		(shape input)
 		(at 193.04 80.01 180)
 		(fields_autoplaced yes)
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "563f3cfd-e41d-44ac-9d02-e41892c70972")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4952 80.01 0)
+			(at 176.5686 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2115,7 +2115,7 @@
 			)
 		)
 	)
-	(global_label "SPI0_MOSI"
+	(global_label "GP19 SPI0_TX"
 		(shape input)
 		(at 194.31 52.07 180)
 		(fields_autoplaced yes)
@@ -2127,7 +2127,7 @@
 		)
 		(uuid "5e2b36f1-78c9-403e-bbe1-82e2c432293c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4672 52.07 0)
+			(at 177.9597 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2139,7 @@
 			)
 		)
 	)
-	(global_label "SPI0_SCK"
+	(global_label "GP18 SPI0_SCK"
 		(shape input)
 		(at 194.31 49.53 180)
 		(fields_autoplaced yes)
@@ -2151,7 +2151,7 @@
 		)
 		(uuid "603a4be7-6d88-4063-a27f-304af10aa200")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3139 49.53 0)
+			(at 176.3873 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2163,7 +2163,7 @@
 			)
 		)
 	)
-	(global_label "SPI0_MISO"
+	(global_label "GP16 SPI0_RX"
 		(shape input)
 		(at 194.31 54.61 180)
 		(fields_autoplaced yes)
@@ -2175,7 +2175,7 @@
 		)
 		(uuid "8ddace91-3cf9-4798-b90f-af142daca147")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4672 54.61 0)
+			(at 177.6573 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2187,7 @@
 			)
 		)
 	)
-	(global_label "CAN_RST"
+	(global_label "GP11 CAN_RST"
 		(shape input)
 		(at 180.34 88.9 180)
 		(fields_autoplaced yes)
@@ -2199,7 +2199,7 @@
 		)
 		(uuid "c259919e-d487-4326-bbd9-1ca038837d35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.251 88.9 0)
+			(at 163.3244 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
