@@ -4710,6 +4710,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 123.19) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adcd3e9-96a7-4c26-9dba-17da38c417fa")
+	)
+	(wire
+		(pts
 			(xy 63.5 27.94) (xy 63.5 25.4)
 		)
 		(stroke
@@ -5140,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 125.73) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84972ec6-74a0-4814-bc6d-e396c86a46cd")
+	)
+	(wire
+		(pts
 			(xy 177.8 72.39) (xy 175.26 72.39)
 		)
 		(stroke
@@ -5440,6 +5460,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 120.65) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9befea3-4865-4629-aa8d-701eaf7ba8dd")
+	)
+	(wire
+		(pts
 			(xy 153.67 54.61) (xy 189.23 54.61)
 		)
 		(stroke
@@ -5537,6 +5567,16 @@
 			(type default)
 		)
 		(uuid "b3baea20-837a-400f-a92d-e06c00488a74")
+	)
+	(wire
+		(pts
+			(xy 153.67 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b873f121-39c7-4b5c-b7f3-f5635a8d002a")
 	)
 	(wire
 		(pts
@@ -6128,6 +6168,30 @@
 			)
 		)
 	)
+	(global_label "GP27{slash}ADC1"
+		(shape input)
+		(at 156.21 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4188268e-7db0-489a-9202-9ceccc170836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP15 SPI1_TX"
 		(shape input)
 		(at 156.21 87.63 0)
@@ -6406,6 +6470,54 @@
 			)
 		)
 	)
+	(global_label "GP29{slash}ADC3"
+		(shape input)
+		(at 156.21 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "846cedd1-62ff-434e-be84-f82fc8e1f144")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP26{slash}ADC0"
+		(shape input)
+		(at 156.21 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8728cd3f-300e-43db-88b1-9e3480ac67bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP17 SPI0_CS"
 		(shape input)
 		(at 179.07 92.71 0)
@@ -6495,6 +6607,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "GP28{slash}ADC2"
+		(shape input)
+		(at 156.21 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5f7d2cd-1656-407b-96f3-b1dc1f840af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -11811,52 +11947,6 @@
 			(project "LunaBreakout"
 				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 245.618 34.036)
-		(size 19.812 12.446)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6f4bab28-03bd-487e-a32f-f7eb7929ac89")
-		(property "Sheetname" "CAN"
-			(at 245.618 33.3244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CanTran.kicad_sch"
-			(at 245.618 47.0666 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "LunaBreakout"
-				(path "/5f8915c9-c09e-4522-819d-9a09dec9e693"
-					(page "2")
 				)
 			)
 		)
