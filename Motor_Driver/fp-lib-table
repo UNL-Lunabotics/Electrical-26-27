@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TMCS1101") (type "KiCad") (uri "${KIPRJMOD}/libs/KiCADv6/TMCS1101.pretty") (options "") (descr ""))
+)

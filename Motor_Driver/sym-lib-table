@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TMCS1101") (type "KiCad") (uri "${KIPRJMOD}/libs/KiCADv6/2026-10-22_07-09-29.kicad_sym") (options "") (descr ""))
+)
