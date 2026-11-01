@@ -3682,7 +3682,7 @@
 			)
 		)
 	)
-	(global_label "GP20"
+	(global_label "GP20 SPI1CS"
 		(shape input)
 		(at 152.4 167.64 180)
 		(fields_autoplaced yes)
@@ -3694,7 +3694,7 @@
 		)
 		(uuid "11abb25b-fdea-4e44-9ca7-13ce70cd4653")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4558 167.64 0)
+			(at 136.7149 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,6 +3874,30 @@
 			)
 		)
 	)
+	(global_label "GP19 SPI0_TX"
+		(shape input)
+		(at 72.39 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50f725da-066f-4f51-9b55-ea6b7c749663")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0397 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GP13 UART0_RX"
 		(shape input)
 		(at 81.28 39.37 180)
@@ -3898,7 +3922,7 @@
 			)
 		)
 	)
-	(global_label "GP22"
+	(global_label "GP22 SPI0CS"
 		(shape input)
 		(at 44.45 184.15 180)
 		(fields_autoplaced yes)
@@ -3910,7 +3934,55 @@
 		)
 		(uuid "59a252b6-4dfe-448a-9a57-20138d716490")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 184.15 0)
+			(at 28.7649 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP18 SPI0_SCK"
+		(shape input)
+		(at 72.39 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69a0a6cf-1728-4b89-babc-6bac30576b56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4673 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP17 SPI0_CS"
+		(shape input)
+		(at 72.39 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "728dc835-3940-4166-8963-33841a12a080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7373 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4114,31 @@
 			)
 		)
 	)
-	(global_label "GP21"
+	(global_label "GP22 SPI0CS"
+		(shape input)
+		(at 69.85 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd214b7-4526-41e6-9c99-537bc6308a6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5351 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP21 SPI1CS"
 		(shape input)
 		(at 144.78 154.94 180)
 		(fields_autoplaced yes)
@@ -4054,7 +4150,7 @@
 		)
 		(uuid "d0a276cd-30bf-4b90-b41c-3a836d95178a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 154.94 0)
+			(at 129.0949 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4186,7 @@
 			)
 		)
 	)
-	(global_label "GP23"
+	(global_label "GP23 SPI0CS"
 		(shape input)
 		(at 44.45 181.61 180)
 		(fields_autoplaced yes)
@@ -4102,7 +4198,7 @@
 		)
 		(uuid "db776f62-c3c8-401d-845c-f96848b60713")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 181.61 0)
+			(at 28.7649 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,6 +4207,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GP16 SPI0_RX"
+		(shape input)
+		(at 72.39 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd8168fe-92c7-4d7f-be21-80222fb19042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7373 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GP23 SPI0CS"
+		(shape input)
+		(at 69.85 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1df735f-f68b-4488-800f-8ca74be38e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5351 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
