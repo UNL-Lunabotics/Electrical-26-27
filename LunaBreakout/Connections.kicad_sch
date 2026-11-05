@@ -4114,30 +4114,6 @@
 			)
 		)
 	)
-	(global_label "GP22 SPI0CS"
-		(shape input)
-		(at 69.85 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbd214b7-4526-41e6-9c99-537bc6308a6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5351 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GP21 SPI1CS"
 		(shape input)
 		(at 144.78 154.94 180)
@@ -4231,30 +4207,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GP23 SPI0CS"
-		(shape input)
-		(at 69.85 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1df735f-f68b-4488-800f-8ca74be38e52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.5351 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
