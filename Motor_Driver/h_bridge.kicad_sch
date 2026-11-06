@@ -1001,6 +1001,614 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Q_PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMOS P-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1375,678 +1983,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2582,6 +2518,12 @@
 		(uuid "02974195-d4fd-4afa-80e7-0c6296c15b6c")
 	)
 	(junction
+		(at 304.8 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d6a113-bb0e-4c85-a871-2fc4ff624c81")
+	)
+	(junction
 		(at 83.82 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2598,6 +2540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a8c2cfb-2737-4d15-9525-c17cf1569e3a")
+	)
+	(junction
+		(at 293.37 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d5c9887-7106-4966-9b8d-39598f860259")
 	)
 	(junction
 		(at 123.19 99.06)
@@ -2696,6 +2644,12 @@
 		(uuid "5c686b23-091e-47ee-859e-9eba4f8d1da6")
 	)
 	(junction
+		(at 300.99 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c9c1946-9d96-4f10-8cea-19d857f04812")
+	)
+	(junction
 		(at 306.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2744,6 +2698,12 @@
 		(uuid "7e7ca493-55ba-4941-a7f4-86dce8805416")
 	)
 	(junction
+		(at 115.57 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fcf0ead-7f81-4b3c-b9b0-020063f53b87")
+	)
+	(junction
 		(at 116.84 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2754,6 +2714,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845dd772-c908-4eff-94f0-db98118842fa")
+	)
+	(junction
+		(at 104.14 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7dfd06-1d83-4cfd-82ee-bd35f4410e7e")
 	)
 	(junction
 		(at 276.86 158.75)
@@ -2778,6 +2744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43e1099-04f9-4a4e-aa60-14c8f1011caa")
+	)
+	(junction
+		(at 287.02 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8c1d58a-f239-4a78-a048-4a29b8085131")
 	)
 	(junction
 		(at 306.07 96.52)
@@ -2808,6 +2780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2af49c-9099-4f27-ad6c-67dc76a5ea0b")
+	)
+	(junction
+		(at 111.76 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d02a2d30-a2e1-417e-b28b-d057a185d91b")
 	)
 	(junction
 		(at 287.02 99.06)
@@ -2844,6 +2822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f28593-e613-4a24-a8aa-108826fbdca9")
+	)
+	(junction
+		(at 97.79 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9acd049-ae8e-4797-bf8e-b0622470630f")
 	)
 	(junction
 		(at 368.3 124.46)
@@ -3001,6 +2985,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 172.72) (xy 104.14 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10afee71-c376-4390-9ee0-d3f0a38546a3")
+	)
+	(wire
+		(pts
 			(xy 87.63 158.75) (xy 90.17 158.75)
 		)
 		(stroke
@@ -3088,6 +3082,16 @@
 			(type default)
 		)
 		(uuid "1899f057-878d-4d90-acd5-e143566902cf")
+	)
+	(wire
+		(pts
+			(xy 287.02 165.1) (xy 293.37 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a6b71b-8983-4005-9743-15c821ed62fd")
 	)
 	(wire
 		(pts
@@ -3298,6 +3302,16 @@
 			(type default)
 		)
 		(uuid "36416c94-40d1-47e7-9ff8-7472b52a9d39")
+	)
+	(wire
+		(pts
+			(xy 304.8 170.18) (xy 304.8 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37021fcc-6aa7-4266-a908-9deb49e9befb")
 	)
 	(wire
 		(pts
@@ -3561,6 +3575,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 172.72) (xy 304.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bbee69-4a54-4e9c-a845-5ced58503153")
+	)
+	(wire
+		(pts
 			(xy 241.3 124.46) (xy 245.11 124.46)
 		)
 		(stroke
@@ -3691,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 165.1) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71714283-0467-441d-aff8-dd610ce3dfc9")
+	)
+	(wire
+		(pts
 			(xy 299.72 110.49) (xy 299.72 111.76)
 		)
 		(stroke
@@ -3798,6 +3832,16 @@
 			(type default)
 		)
 		(uuid "7ba88add-57af-40ea-8345-0f5eda287bb7")
+	)
+	(wire
+		(pts
+			(xy 300.99 172.72) (xy 293.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb7c7c2-cd9b-4e7c-8d85-ca9a39cd6b9a")
 	)
 	(wire
 		(pts
@@ -3921,6 +3965,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 172.72) (xy 111.76 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904a8c3f-e389-4d5b-89f9-58b2ee9efbf6")
+	)
+	(wire
+		(pts
 			(xy 179.07 134.62) (xy 179.07 135.89)
 		)
 		(stroke
@@ -3981,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 165.1) (xy 287.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec1195d-20b6-4441-93fa-a851b19c493d")
+	)
+	(wire
+		(pts
 			(xy 110.49 99.06) (xy 110.49 102.87)
 		)
 		(stroke
@@ -3988,6 +4052,16 @@
 			(type default)
 		)
 		(uuid "9f1e0872-59c4-445e-a7f1-a1d8a8f86749")
+	)
+	(wire
+		(pts
+			(xy 293.37 165.1) (xy 300.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc31ddd-0ed3-4a40-9f6d-a451d59ae5a7")
 	)
 	(wire
 		(pts
@@ -4161,6 +4235,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 172.72) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd02530-74d8-438c-90f0-7626e6ced038")
+	)
+	(wire
+		(pts
 			(xy 287.02 127) (xy 294.64 127)
 		)
 		(stroke
@@ -4211,6 +4295,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 165.1) (xy 104.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17b9f91-ed7b-414e-98e6-b4585f87292c")
+	)
+	(wire
+		(pts
+			(xy 115.57 171.45) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cc5d65-6096-4920-8b2b-510c666262d2")
+	)
+	(wire
+		(pts
 			(xy 77.47 158.75) (xy 74.93 158.75)
 		)
 		(stroke
@@ -4258,6 +4362,16 @@
 			(type default)
 		)
 		(uuid "cc395964-4fe6-4312-8cbc-7c09f75408d2")
+	)
+	(wire
+		(pts
+			(xy 97.79 165.1) (xy 97.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd79c3b2-82b3-4fb6-9c4b-43b5cb1eb819")
 	)
 	(wire
 		(pts
@@ -4411,7 +4525,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 163.83) (xy 287.02 166.37)
+			(xy 287.02 163.83) (xy 287.02 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4541,6 +4655,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 172.72) (xy 300.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43e6ca9-2de8-4aac-a648-bed2e5466b6a")
+	)
+	(wire
+		(pts
 			(xy 273.05 116.84) (xy 279.4 116.84)
 		)
 		(stroke
@@ -4651,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 163.83) (xy 97.79 166.37)
+			(xy 97.79 163.83) (xy 97.79 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5571,124 +5695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 138.43 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fe29d7f-6043-4133-9877-13226154c454")
-		(property "Reference" "Q4"
-			(at 132.842 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 132.842 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 133.35 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 138.43 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 138.43 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81ebaf33-8606-4551-afc2-350cd59fbe44")
-		)
-		(pin "3"
-			(uuid "0b2bc3f2-f7c0-43f9-90ad-d080cd1bfe2b")
-		)
-		(pin "2"
-			(uuid "b6309a40-33c8-49ac-9fc1-2bc9b0d7871f")
-		)
-		(instances
-			(project "Motor_Driver"
-				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 144.78 165.1 0)
 		(unit 1)
@@ -6199,6 +6205,87 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bf551a1-c65a-4a3d-b91d-88dedfae980c")
+		(property "Reference" "C35"
+			(at 113.538 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 113.538 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 112.7252 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c657206-6319-44ac-b27d-916a80c4d8bd")
+		)
+		(pin "2"
+			(uuid "82789edc-ef7f-437f-9edc-1f632a146686")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7348,9 +7435,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 284.48 116.84 0)
-		(mirror x)
+		(lib_id "Device:Q_NMOS")
+		(at 138.43 158.75 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7358,9 +7445,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "47030152-3a03-49f7-87b5-4763482d8db7")
-		(property "Reference" "Q10"
-			(at 279.908 119.888 0)
+		(fields_autoplaced yes)
+		(uuid "4d6d4d42-1687-4efd-ab0b-623e4e5c92bf")
+		(property "Reference" "Q4"
+			(at 132.08 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7370,8 +7458,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SQJ407EP"
-			(at 276.86 122.428 0)
+		(property "Value" "CSD18540Q5B"
+			(at 132.08 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,8 +7469,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 289.56 119.38 0)
+		(property "Footprint" "MotorDriver_fixes:TDSON-8-1_SGD"
+			(at 133.35 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,8 +7480,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 284.48 104.14 0)
+		(property "Datasheet" ""
+			(at 138.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,8 +7491,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 284.48 116.84 0)
+		(property "Description" "N-MOSFET transistor"
+			(at 138.43 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,52 +7502,19 @@
 				)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 284.48 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "D"
+			(uuid "46211516-504f-44ba-8217-51e59fe011fc")
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 284.48 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "S"
+			(uuid "fe77c8f7-4548-4b1c-8b85-0eed1810406c")
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 284.48 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "df74bc37-0c98-4214-ba6a-74f8d77f0e56")
-		)
-		(pin "1"
-			(uuid "23a4c504-58c3-42f3-bf3c-a88d293bd799")
-		)
-		(pin "2"
-			(uuid "4b4bd3e5-dbf0-4939-a2d7-72756c193dab")
+		(pin "G"
+			(uuid "d4506893-4e95-4a9e-b791-8309b51cb25e")
 		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q10")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+		(property "Footprint" "MotorDriver_fixes:TO-277A_SS10P4_K-tab"
 			(at 317.5 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7700,123 +7755,6 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 327.66 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6011642f-f1c6-4b14-982b-fdbdbeb8dd8b")
-		(property "Reference" "Q12"
-			(at 330.454 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SQJ407EP"
-			(at 335.026 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 322.58 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 327.66 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 327.66 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 327.66 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 327.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 327.66 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "09f11bf7-0dc1-4188-aaa1-f5cc0f5b7008")
-		)
-		(pin "1"
-			(uuid "5cd27337-6d0e-46ca-b947-b96ee122d223")
-		)
-		(pin "2"
-			(uuid "0fc9fcfe-afef-4091-82b5-0530473c4ce6")
-		)
-		(instances
-			(project "Motor_Driver"
-				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -7977,6 +7915,92 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 327.66 158.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "632f5958-9488-4bbe-92cd-2cbae186e288")
+		(property "Reference" "Q13"
+			(at 321.31 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18540Q5B"
+			(at 321.31 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:TDSON-8-1_SGD"
+			(at 322.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 327.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "fb848c41-e9ac-4ecf-91ae-1aa39f8af626")
+		)
+		(pin "S"
+			(uuid "3b6eaa86-ee7c-489b-a6bc-bbb7d9124684")
+		)
+		(pin "G"
+			(uuid "f5590491-611e-4117-a2e0-1c032649f46b")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -8224,7 +8248,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 115.57 175.26 0)
+		(at 115.57 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8232,10 +8256,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6deb5bbc-e9dc-4d79-b305-42a6a5223355")
 		(property "Reference" "#PWR042"
-			(at 115.57 179.07 0)
+			(at 115.57 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8246,7 +8269,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 115.57 170.18 0)
+			(at 118.872 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8256,7 +8279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 175.26 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 175.26 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8278,7 +8301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 115.57 175.26 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8404,7 +8427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100μF"
+		(property "Value" "100nF"
 			(at 312.674 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8464,9 +8487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 95.25 116.84 0)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 293.37 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8474,9 +8496,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7241a20f-7493-4c87-b067-70e6ba51d085")
-		(property "Reference" "Q6"
-			(at 90.678 119.888 0)
+		(uuid "75e71ed5-07a2-448c-b740-0432202bbe6b")
+		(property "Reference" "C36"
+			(at 293.878 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8486,8 +8508,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SQJ407EP"
-			(at 87.63 122.428 0)
+		(property "Value" "1μF"
+			(at 293.878 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8497,8 +8519,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 100.33 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 294.3352 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8508,8 +8530,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 95.25 104.14 0)
+		(property "Datasheet" ""
+			(at 293.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8519,8 +8541,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 95.25 116.84 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,53 +8551,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 95.25 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 95.25 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 95.25 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ede046d0-9417-4862-b26b-793bf244ba8b")
-		)
-		(pin "1"
-			(uuid "1ca1d64b-65c5-4fd6-b93b-e81760f35275")
 		)
 		(pin "2"
-			(uuid "f11fd7f8-6c4e-4971-9ebb-40b44e303534")
+			(uuid "8891b5ec-3c14-4f4a-9c35-ea0c707d8031")
+		)
+		(pin "1"
+			(uuid "dc403dd2-d336-4418-b39d-653279519f85")
 		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q6")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -8736,123 +8722,6 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 284.48 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c265a37-757b-40da-8738-19d752661c4d")
-		(property "Reference" "Q11"
-			(at 289.814 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 289.814 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 289.56 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 284.48 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 284.48 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 284.48 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 284.48 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 284.48 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68e7bb99-b6ba-4822-acbb-4abbb7202955")
-		)
-		(pin "3"
-			(uuid "4b6e9bd1-56ef-4276-8595-86dca3403493")
-		)
-		(pin "2"
-			(uuid "9e594f45-eea2-4d1a-a1be-3fd52978a191")
-		)
-		(instances
-			(project "Motor_Driver"
-				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -9020,9 +8889,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 327.66 158.75 0)
-		(mirror y)
+		(lib_id "Device:Q_PMOS")
+		(at 284.48 116.84 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9030,9 +8899,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8703f1d5-c77a-4011-bd5d-0ff243321e72")
-		(property "Reference" "Q13"
-			(at 322.072 157.48 0)
+		(uuid "85af1b92-833b-4332-b8cf-88771ceeeee1")
+		(property "Reference" "Q10"
+			(at 278.384 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9042,8 +8911,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD18540Q5B"
-			(at 322.072 160.02 0)
+		(property "Value" "SQJ407EP"
+			(at 278.384 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9053,8 +8922,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 322.58 156.21 0)
+		(property "Footprint" "MotorDriver_fixes:PowerPAK_SO-8_Single_SGD"
+			(at 289.56 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,8 +8933,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 327.66 171.45 0)
+		(property "Datasheet" ""
+			(at 284.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,8 +8944,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 327.66 158.75 0)
+		(property "Description" "P-MOSFET transistor"
+			(at 284.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,52 +8955,19 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 327.66 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "D"
+			(uuid "f3131808-4c01-4894-a672-1502fb222b18")
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 327.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "G"
+			(uuid "9219d4de-74f8-4e2b-b270-da48e1c3dfce")
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 327.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2adc62b4-cd35-43f4-8a12-7839c7744791")
-		)
-		(pin "3"
-			(uuid "c734bea8-5aa6-4f7f-a0ac-a6472cd54c09")
-		)
-		(pin "2"
-			(uuid "73c8bfae-23c4-4f2d-851e-4d70bb5fd643")
+		(pin "S"
+			(uuid "fd1796ca-1b3c-4281-a03c-85f428b9096d")
 		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q13")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -9241,7 +9077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100μF"
+		(property "Value" "100nF"
 			(at 123.444 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9215,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 304.8 175.26 0)
+		(at 304.8 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9387,10 +9223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c107426-6041-4861-b3ad-671ce7bcad45")
 		(property "Reference" "#PWR057"
-			(at 304.8 179.07 0)
+			(at 304.8 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9401,7 +9236,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 304.8 170.18 0)
+			(at 308.356 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9411,7 +9246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 175.26 0)
+			(at 304.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9422,7 +9257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 175.26 0)
+			(at 304.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9433,7 +9268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 304.8 175.26 0)
+			(at 304.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,123 +9596,6 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 95.25 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c41e1f6-4205-459a-83f9-0cc94f24cf6c")
-		(property "Reference" "Q3"
-			(at 100.584 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD18540Q5B"
-			(at 100.584 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 100.33 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 95.25 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 95.25 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 95.25 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 95.25 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 95.25 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25697eb9-ffde-4f65-87ee-5cef945f2b7a")
-		)
-		(pin "3"
-			(uuid "9f794d8b-b0e2-440c-ac23-d03e0fdb1c5d")
-		)
-		(pin "2"
-			(uuid "bc2c6d46-caf4-4521-aaa6-a9a4e532c39f")
-		)
-		(instances
-			(project "Motor_Driver"
-				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10358,6 +10076,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PMOS")
+		(at 138.43 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6d14636-8930-4464-8e4e-8ebd5365b501")
+		(property "Reference" "Q6"
+			(at 146.05 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ407EP"
+			(at 146.05 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:PowerPAK_SO-8_Single_SGD"
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor"
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "cb29790d-6049-49a1-802d-ed069fb4c1ea")
+		)
+		(pin "G"
+			(uuid "83b1af1d-0ad3-4578-b368-cc8f8151f669")
+		)
+		(pin "S"
+			(uuid "966d082b-2b4d-4932-9f88-f83d1beb6e11")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 312.42 111.76 0)
 		(unit 1)
@@ -10515,6 +10317,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PMOS")
+		(at 95.25 116.84 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfa0e388-4924-481a-8a67-c1365296929a")
+		(property "Reference" "Q5"
+			(at 89.154 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ407EP"
+			(at 89.154 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:PowerPAK_SO-8_Single_SGD"
+			(at 100.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor"
+			(at 95.25 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "488c8b70-6cef-40be-b27b-253e89b78fac")
+		)
+		(pin "G"
+			(uuid "4b8ae343-93b1-4c4c-9b75-785a1e305737")
+		)
+		(pin "S"
+			(uuid "89a2b611-8273-41eb-80e6-71c455582544")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 306.07 96.52 90)
 		(unit 1)
@@ -10585,6 +10472,90 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS")
+		(at 327.66 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca42b964-ba31-46f5-8fe1-92d443d49958")
+		(property "Reference" "Q12"
+			(at 335.28 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJ407EP"
+			(at 335.28 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:PowerPAK_SO-8_Single_SGD"
+			(at 322.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor"
+			(at 327.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "03cf0e51-128c-4aa5-a2ae-fe793acb5c0c")
+		)
+		(pin "G"
+			(uuid "f35189d2-58c5-44d5-ba4a-908398fbb884")
+		)
+		(pin "S"
+			(uuid "5575ab11-dabe-4b4f-a9c9-70952b75b75a")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -10669,6 +10640,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 284.48 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc8c3ac4-ca92-40ed-89c2-28f62b87c0be")
+		(property "Reference" "Q11"
+			(at 290.83 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18540Q5B"
+			(at 290.83 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:TDSON-8-1_SGD"
+			(at 289.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 284.48 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "G"
+			(uuid "4f52b990-920f-47f2-94cb-126cda0bfac2")
+		)
+		(pin "D"
+			(uuid "a0a3f09f-b97d-4136-af23-58fa516e2a73")
+		)
+		(pin "S"
+			(uuid "92f44166-a838-4863-a8dc-6d606f318d00")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 341.63 158.75 90)
 		(unit 1)
@@ -10743,6 +10799,91 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 95.25 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d68d9fcc-84dc-4a11-a481-1f0abcdcb85a")
+		(property "Reference" "Q3"
+			(at 101.6 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18540Q5B"
+			(at 101.6 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MotorDriver_fixes:TDSON-8-1_SGD"
+			(at 100.33 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "G"
+			(uuid "68d43e3b-1301-44ab-b8b3-9f3c583a23ad")
+		)
+		(pin "D"
+			(uuid "3510067a-e69b-4da1-ad21-2f5df07b099d")
+		)
+		(pin "S"
+			(uuid "9c66b13a-bf2d-4eb6-9b66-6f106d212131")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10908,8 +11049,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 138.43 116.84 180)
+		(lib_id "Device:C")
+		(at 300.99 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10917,9 +11058,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e327ff4f-f808-42f4-8d99-21aa662b07f8")
-		(property "Reference" "Q5"
-			(at 141.224 120.142 0)
+		(uuid "e0fd4897-4415-4ec9-a245-9f16920cd145")
+		(property "Reference" "C37"
+			(at 301.752 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10929,8 +11070,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SQJ407EP"
-			(at 145.796 122.174 0)
+		(property "Value" "100nF"
+			(at 301.752 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10940,8 +11081,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 133.35 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 301.9552 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10951,8 +11092,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 138.43 104.14 0)
+		(property "Datasheet" ""
+			(at 300.99 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,8 +11103,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 138.43 116.84 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 300.99 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10972,53 +11113,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 138.43 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 138.43 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 138.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "93e22ec1-7434-457b-a048-ea67cb2fca20")
 		)
 		(pin "1"
-			(uuid "967bf193-c35e-4f8d-b67b-d436e3c1bede")
+			(uuid "54d53f28-da3a-43d7-b6a8-acb7e47b92b8")
 		)
 		(pin "2"
-			(uuid "25abf717-cf56-4dd3-8bdd-59bee0ec5fd4")
+			(uuid "0a607697-6120-4ff6-bf08-69c2c20b4c80")
 		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
-					(reference "Q5")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -11057,7 +11162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+		(property "Footprint" "MotorDriver_fixes:TO-277A_SS10P4_K-tab"
 			(at 105.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11100,6 +11205,87 @@
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e68509a0-cb70-491c-94db-272274c46e1b")
+		(property "Reference" "C34"
+			(at 105.156 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1μF"
+			(at 105.156 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.1052 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41296a7c-d952-4b0b-8dc8-d84a3a1a6141")
+		)
+		(pin "1"
+			(uuid "53cef3b2-9b78-4e71-b075-9ca73f378477")
+		)
+		(instances
+			(project "Motor_Driver"
+				(path "/73a47b03-d134-4703-ba74-88b80604f77f/44f57b88-633e-4540-abcf-a45c03b03b1e/41dc1fda-5426-441f-9f00-974c7b5bb28c"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11327,7 +11513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+		(property "Footprint" "MotorDriver_fixes:TO-277A_SS10P4_K-tab"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11726,7 +11912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+		(property "Footprint" "MotorDriver_fixes:TO-277A_SS10P4_K-tab"
 			(at 128.27 116.84 0)
 			(hide yes)
 			(show_name no)

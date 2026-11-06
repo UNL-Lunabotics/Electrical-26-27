@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "TMCS1101") (type "KiCad") (uri "${KIPRJMOD}/libs/KiCADv6/TMCS1101.pretty") (options "") (descr ""))
 	(lib (name "MotorDriver") (type "KiCad") (uri "${KIPRJMOD}/libs/MotorDriver.pretty") (options "") (descr ""))
+	(lib (name "MotorDriver_fixes") (type "KiCad") (uri "${KIPRJMOD}/libs/MotorDriver_fixes.pretty") (options "") (descr ""))
 )
