@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ISO7741") (type "KiCad") (uri "C:/Users/Brand/OneDrive/Documents/KiCad/10.0/symbols/ISO7741.kicad_sym") (options "") (descr "TI ISO7741 Quad-Channel Digital Isolator"))
+)
