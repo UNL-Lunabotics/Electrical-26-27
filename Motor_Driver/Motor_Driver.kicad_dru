@@ -1,0 +1,5 @@
+(version 1)
+   (rule "RP2040 fanout"
+     (condition "A.intersectsCourtyard('U1') || A.intersectsCourtyard('U10')")
+     (constraint track_width (min 0.15mm))
+     (constraint clearance (min 0.15mm)))
