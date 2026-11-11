@@ -1,0 +1,133 @@
+(footprint "Fuse_Mount"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "4-pin through-hole fuse holder, pins 1-1 and 2-2 paralleled. Courtyard/silk drawn from the pad extents: enlarge to the holder body from its datasheet.")
+	(tags "fuse holder blade")
+	(property "Reference" "REF**"
+		(at 7.112 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "7f09f964-889e-41d5-8d33-4352eb6c07dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Mount"
+		(at 7.112 4.2 0)
+		(layer "F.Fab")
+		(uuid "7936605f-197a-4389-b1fe-c11d64787344")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f1e004e-3535-41a0-bbc2-968ccbf2a125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse holder, 4 pin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1710ea90-c477-4a77-acca-0265e6975908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.54 -2.54)
+		(end 16.764 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5f97d604-b467-40e4-abf2-7c90328107ae")
+	)
+	(fp_rect
+		(start -2.8 -2.8)
+		(end 17.024 2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "92563f79-00ac-4264-8e40-acceeebfa7c2")
+	)
+	(fp_rect
+		(start -3.04 -3.04)
+		(end 17.264 3.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a9fab7aa-f201-448d-89cb-85256a0a99c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.112 0 0)
+		(layer "F.Fab")
+		(uuid "1edab056-3a94-40df-92c7-fa7ac540e893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.08 5.08)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbb6081d-b793-4fbb-95ea-b3879f215a60")
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 0)
+		(size 3.302 3.302)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6fc0f68-06f3-4945-9008-3d663e5661b1")
+	)
+	(pad "2" thru_hole circle
+		(at 9.144 0)
+		(size 3.302 3.302)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b90f145-8bf1-4824-ad8c-844610ad4d25")
+	)
+	(pad "2" thru_hole circle
+		(at 14.224 0)
+		(size 5.08 5.08)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c871a697-92cb-4b66-85e9-049169055533")
+	)
+	(embedded_fonts no)
+)
