@@ -3660,32 +3660,32 @@
 		(uuid "20c4ace3-c888-4764-9fb8-29f5af203db5")
 	)
 	(no_connect
+		(at 195.58 153.67)
+		(uuid "3191faf9-667f-478b-bf3a-9830cd0e3b91")
+	)
+	(no_connect
 		(at 140.97 189.23)
 		(uuid "5293013f-6a8b-41b9-a2c2-348798ef2a55")
 	)
 	(no_connect
-		(at 195.58 161.29)
-		(uuid "66b84a0c-bae5-4c7f-856a-48a12d638db2")
+		(at 195.58 146.05)
+		(uuid "5a452dd1-1469-41fb-b646-47c2e694a161")
 	)
 	(no_connect
 		(at 195.58 191.77)
 		(uuid "720fd00b-5ba8-45a0-b949-87819fd88c74")
 	)
 	(no_connect
-		(at 195.58 163.83)
-		(uuid "96d24abd-a46d-4325-b5b4-840da6757fd2")
-	)
-	(no_connect
 		(at 140.97 186.69)
 		(uuid "9924b1c9-da4d-4206-bc62-b31a2f9820c4")
 	)
 	(no_connect
-		(at 195.58 179.07)
-		(uuid "a949075e-fc1d-4f4d-8f2b-b8e57a8ae6b5")
+		(at 195.58 151.13)
+		(uuid "a339e3ec-9c54-45a0-ad4c-124a2a5ce4e9")
 	)
 	(no_connect
-		(at 195.58 158.75)
-		(uuid "e0cf97e5-ad29-47e1-8d32-4aa31917a79e")
+		(at 195.58 148.59)
+		(uuid "b791d84c-2975-4f20-bd60-464cd6ee442e")
 	)
 	(wire
 		(pts
@@ -5305,30 +5305,6 @@
 			)
 		)
 	)
-	(global_label "M1_PWM_B"
-		(shape input)
-		(at 195.58 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a278bfd-1dcb-4419-b693-253894274b3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6041 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "M1_I_SENSE"
 		(shape input)
 		(at 195.58 184.15 0)
@@ -5521,30 +5497,6 @@
 			)
 		)
 	)
-	(global_label "M2_PWM_B"
-		(shape input)
-		(at 195.58 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "555a3b7e-97f1-4673-a90a-33e3e7504cc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6041 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RP_PIN_54"
 		(shape input)
 		(at 35.56 251.46 180)
@@ -5665,30 +5617,6 @@
 			)
 		)
 	)
-	(global_label "M1_P_B_ON"
-		(shape input)
-		(at 195.58 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68aacb9a-783c-4818-bd0a-3a8d1a5e45fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3299 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RP_PIN_54"
 		(shape input)
 		(at 138.43 158.75 180)
@@ -5713,9 +5641,9 @@
 			)
 		)
 	)
-	(global_label "M2_PWM_A"
+	(global_label "M2_P_A_ON"
 		(shape input)
-		(at 195.58 146.05 0)
+		(at 195.58 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5723,33 +5651,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6fb7051b-83ee-4ac7-9239-9961f6dc4156")
+		(uuid "70c30cff-a76c-4e45-9e3d-41c347eed228")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4227 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STATUS_LED"
-		(shape input)
-		(at 195.58 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7eafee61-0c9f-4448-ac12-45e60d8269cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.7532 156.21 0)
+			(at 209.1485 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,30 +5713,6 @@
 			)
 		)
 	)
-	(global_label "M1_PWM_A"
-		(shape input)
-		(at 195.58 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82b2f585-263b-40a3-b0d6-340fe74cd358")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4227 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RP_SCLK"
 		(shape input)
 		(at 138.43 151.13 180)
@@ -5857,6 +5737,54 @@
 			)
 		)
 	)
+	(global_label "M1_P_B_ON"
+		(shape input)
+		(at 195.58 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "854864a6-9c13-459a-a3b8-b05eee5ada25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.3299 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "M2_PWM_A"
+		(shape input)
+		(at 195.58 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85aa3ce6-af87-48ae-975b-50811a528293")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4227 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RP_PIN_55"
 		(shape input)
 		(at 35.56 248.92 180)
@@ -5878,6 +5806,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "M2_P_B_ON"
+		(shape input)
+		(at 195.58 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98107f18-e9a7-4a64-9ac0-db7705cb7c57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.3299 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "M2_PWM_B"
+		(shape input)
+		(at 195.58 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b2890f9-a63c-42e9-b800-b2b68ddee1ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6041 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5929,9 +5905,9 @@
 			)
 		)
 	)
-	(global_label "M2_P_B_ON"
+	(global_label "M1_P_A_ON"
 		(shape input)
-		(at 195.58 153.67 0)
+		(at 195.58 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5939,33 +5915,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b66cad23-f8cd-44f3-8366-23926fbb1375")
+		(uuid "c17a8add-e552-439b-aa31-7ed38d0a0875")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3299 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "M2_P_A_ON"
-		(shape input)
-		(at 195.58 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0ff73c6-abb6-43e1-93b1-16d063d82797")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1485 151.13 0)
+			(at 209.1485 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,6 +6073,30 @@
 			)
 		)
 	)
+	(global_label "M1_PWM_B"
+		(shape input)
+		(at 195.58 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9363e1e-d300-431f-9fa3-3ce02d776f35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6041 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_MOSI"
 		(shape input)
 		(at 195.58 173.99 0)
@@ -6158,6 +6134,54 @@
 		(uuid "e98fa3ae-3d4d-4364-8af1-6cd53b7ad4e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.8741 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "M1_PWM_A"
+		(shape input)
+		(at 195.58 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf71653-6c0e-424e-acc7-66041f99e879")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4227 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "STATUS_LED"
+		(shape input)
+		(at 195.58 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7d99e23-dff1-4614-844d-921632979539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.7532 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,30 +6262,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "M1_P_A_ON"
-		(shape input)
-		(at 195.58 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd7d8339-7619-4857-a170-b3511e84c1a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1485 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7829,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 318.4652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8638,7 +8638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 402.2852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9048,7 +9048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 307.0352 41.91 0)
 			(hide yes)
 			(show_name no)
