@@ -10422,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+12V_M2"
 			(at 301.244 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+12V_M1"
 			(at 111.76 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)

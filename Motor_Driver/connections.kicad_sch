@@ -5134,7 +5134,7 @@
 	)
 	(no_connect
 		(at 63.5 87.63)
-		(uuid "3d2f00d5-9119-44b1-ab17-b5d519a78b89")
+		(uuid "5dbab368-5b19-4bec-b582-39c8e6b45fea")
 	)
 	(no_connect
 		(at 63.5 115.57)
@@ -16398,7 +16398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Raw_12V"
 			(at 132.334 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16557,7 +16557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Raw_3.3V"
 			(at 215.646 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)

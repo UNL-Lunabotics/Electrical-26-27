@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|401850000|282755000|5d44d5a2-96cf-4df8-95ed-fc14c4b054fe|f2dd1c74-7e65-4768-8dc8-abb4fd388efa",
+          ""
+        ],
+        [
+          "shorting_items|406650000|282755000|e47879a5-2441-48b2-8113-6e805eb83c82|5f18a21b-2eb8-4112-9472-0995ae4a074c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|401850000|282755000|f2dd1c74-7e65-4768-8dc8-abb4fd388efa|5d44d5a2-96cf-4df8-95ed-fc14c4b054fe",
+          ""
+        ],
+        [
+          "solder_mask_bridge|406650000|282755000|e47879a5-2441-48b2-8113-6e805eb83c82|5f18a21b-2eb8-4112-9472-0995ae4a074c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -886,12 +903,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

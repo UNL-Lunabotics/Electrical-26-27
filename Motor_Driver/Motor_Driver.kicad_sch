@@ -10944,7 +10944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+12V"
 			(at 156.718 263.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11347,7 +11347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+3.3V"
 			(at 156.464 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,7 +11426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND1"
 			(at 195.58 265.9379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,7 +11505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND2"
 			(at 195.58 248.1579 0)
 			(show_name no)
 			(do_not_autoplace no)
