@@ -3138,78 +3138,6 @@
 			)
 		)
 	)
-	(global_label "GP19 SPI0_TX"
-		(shape input)
-		(at 68.58 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50f725da-066f-4f51-9b55-ea6b7c749663")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2297 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP18 SPI0_SCK"
-		(shape input)
-		(at 68.58 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69a0a6cf-1728-4b89-babc-6bac30576b56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6573 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP17 SPI0_CS"
-		(shape input)
-		(at 68.58 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "728dc835-3940-4166-8963-33841a12a080")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.9273 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GP27{slash}ADC1"
 		(shape input)
 		(at 199.39 96.52 180)
@@ -3391,30 +3319,6 @@
 		(uuid "d52fcb9a-8222-4445-a10a-a5581961f666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.8768 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP16 SPI0_RX"
-		(shape input)
-		(at 68.58 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd8168fe-92c7-4d7f-be21-80222fb19042")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.9273 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
