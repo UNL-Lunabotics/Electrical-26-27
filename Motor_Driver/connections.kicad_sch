@@ -8098,6 +8098,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 59.69 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e301a92f-f2a0-49df-bad7-a73fb62da229")
 		)
@@ -8259,6 +8270,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "TMP1075DR"
+			(at 356.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2d0c5b5-8a01-4295-9d4d-6843c241c29d")
 		)
@@ -8359,6 +8381,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 96.52 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "82b8bfd8-3ec1-45e7-ab20-14a5bcf91024")
 		)
@@ -8431,6 +8464,17 @@
 			)
 		)
 		(property "Description" "I2C-bus digital temperature sensor and thermal watchdog, SO-8"
+			(at 311.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "TMP1075DR"
 			(at 311.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8635,7 +8679,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8651,7 +8695,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 165.1 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,6 +8729,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 165.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 165.1 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8766,6 +8821,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "TMCS1101A1BQDR"
 			(at 195.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9022,6 +9088,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
 			(at 158.75 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 151.13 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 287.02 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9416,6 +9493,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 287.02 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "AC0805FR-0722K1L"
 			(at 287.02 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9486,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSZ5221-MMSZ5267(SOD-123).pdf"
 			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9499,6 +9587,17 @@
 		)
 		(property "Description" "Zener diode"
 			(at 156.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "MMSZ5245B-TP"
+			(at 156.21 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +9939,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9901,6 +10000,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f8c14a4-ae48-4980-a5ab-7f1a811d7c12")
 		)
@@ -9922,7 +10032,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9939,7 +10049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 335.28 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,6 +10093,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 332.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a2ef90b-48db-4ea1-a761-19319a423b48")
 		)
@@ -10004,7 +10125,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10020,7 +10141,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 302.26 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,6 +10175,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 302.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 302.26 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,7 +10294,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10212,6 +10344,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 222.25 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 222.25 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10279,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 38.1 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10291,6 +10434,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 38.1 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B3B-XH-A"
 			(at 38.1 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10462,6 +10616,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 55.88 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f58a9034-5495-4016-9e87-4f1e6b020598")
 		)
@@ -10520,7 +10685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
 			(at 52.07 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10532,6 +10697,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 48.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "USB4105-GF-A-120"
 			(at 48.26 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11154,7 +11330,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11204,6 +11380,17 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 166.37 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 166.37 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11311,7 +11498,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11361,6 +11548,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 279.4 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 279.4 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11451,6 +11649,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 147.32 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cfa2e5b5-5849-44d8-b93a-c018896c2ba9")
 		)
@@ -11472,7 +11681,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11489,7 +11698,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "4n7"
 			(at 233.68 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,6 +11742,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 229.87 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f4c4d8a-c27c-49e9-81be-8e84ad65512f")
 		)
@@ -11554,7 +11774,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11569,7 +11789,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 78.74 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11603,6 +11823,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 74.93 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,6 +12079,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 53.34 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ac4c8de-2a71-4fe7-9b27-38c6a7b59bc4")
 		)
@@ -11906,7 +12148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 128.27 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -11918,6 +12160,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 128.27 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B4B-XH-A"
 			(at 128.27 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -11955,7 +12208,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11970,7 +12223,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 78.74 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,6 +12257,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 74.93 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12088,6 +12352,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 90.17 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "USBLC6-2SC6"
 			(at 90.17 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12269,6 +12544,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 139.7 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0874583c-d360-4c48-8102-0b56da11e922")
 		)
@@ -12305,7 +12591,7 @@
 				)
 			)
 		)
-		(property "Value" "470μF"
+		(property "Value" "470u"
 			(at 172.466 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12326,7 +12612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/CVH-SERIES-1.pdf"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12339,6 +12625,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 167.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CVH-1E471MH10-R"
+			(at 167.64 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12447,7 +12744,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12464,7 +12761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 322.58 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12498,6 +12795,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 320.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 320.04 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12666,6 +12974,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "AO3401A"
+			(at 228.6 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "D"
 			(uuid "fb42f473-bbf2-4033-8303-555c0ba1f481")
 		)
@@ -12727,7 +13046,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 185.42 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12739,6 +13058,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 185.42 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B2B-XH-A"
 			(at 185.42 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12899,6 +13229,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "1729128"
 			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13163,7 +13504,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13179,7 +13520,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 165.1 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13213,6 +13554,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 165.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 165.1 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13280,7 +13632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 44.45 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13292,6 +13644,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 44.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B3B-XH-A"
 			(at 44.45 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13698,6 +14061,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 143.51 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8468b10a-39b9-44f3-8683-be447f63f262")
 		)
@@ -13735,7 +14109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22μF"
+		(property "Value" "22u"
 			(at 230.632 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13757,7 +14131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13769,6 +14143,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CL21X226MRQNNNE"
 			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13956,7 +14341,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13973,7 +14358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 246.38 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14007,6 +14392,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14176,6 +14572,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 49.53 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db209b62-f1ec-44f0-92e4-b7e7cb453292")
 		)
@@ -14312,7 +14719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 78.74 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14324,6 +14731,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 78.74 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B4B-XH-A"
 			(at 78.74 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14937,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14570,6 +14988,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 228.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14739,6 +15168,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "SN65HVD230DR"
+			(at 77.47 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "43cc3d14-79f9-41ad-aacf-a623a641cf6a")
 		)
@@ -14857,7 +15297,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14874,7 +15314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "4n7"
 			(at 233.68 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14908,6 +15348,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 229.87 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15095,7 +15546,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15145,6 +15596,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 222.25 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 222.25 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15303,6 +15765,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "TMCS1101A1BQDR"
 			(at 195.58 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -15742,7 +16215,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15758,7 +16231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 279.654 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15792,6 +16265,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 276.86 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 276.86 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15882,6 +16366,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "1729128"
+			(at 54.61 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c174a22c-2a74-45d4-836d-659a37836c87")
 		)
@@ -15940,7 +16435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62806/sqj407ep.pdf"
 			(at 146.05 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15953,6 +16448,17 @@
 		)
 		(property "Description" "P-MOSFET transistor"
 			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SQJ407EP-T1_GE3"
+			(at 146.05 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16202,6 +16708,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD3V3S1ULSYL"
+			(at 247.65 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd33fbe0-e6b2-4bab-b6a4-e5b6a38347bf")
 		)
@@ -16361,6 +16878,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "SMBJ15CA-E3/52"
+			(at 173.99 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17b6c59b-e28c-4d69-af8a-739892903a80")
 		)
@@ -16382,7 +16910,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16432,6 +16960,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 135.89 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 135.89 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16520,6 +17059,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "PESD5V0S1ULSYL"
+			(at 92.71 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45f2eff4-c295-4734-ba6f-f7de2eaba891")
 		)
@@ -16541,7 +17091,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16601,6 +17151,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d5beb48-bbd4-4a5a-bf83-47139f4a8f83")
 		)
@@ -16619,7 +17180,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16678,6 +17239,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 166.37 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4f6bc09-2d65-481e-9822-0a2b00bf7762")
 		)
@@ -16715,7 +17287,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120"
 			(at 60.96 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16758,6 +17330,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "RC0805FR-07120RL"
+			(at 60.96 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6ba8026-5f94-4e0d-854c-778de505e26b")
 		)
@@ -16779,7 +17362,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16830,6 +17413,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 345.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 345.44 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17094,7 +17688,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -17110,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 347.98 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17144,6 +17738,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 347.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 347.98 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6427,7 +6427,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6478,6 +6478,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 115.57 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +6598,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6637,6 +6648,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 370.84 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 370.84 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6823,7 +6845,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6839,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 173.99 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,6 +6895,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 173.99 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 173.99 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7056,6 +7089,17 @@
 			(at 166.37 156.21 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SC0914(13)"
+			(at 166.37 153.67 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7405,7 +7449,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7421,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 173.99 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,6 +7508,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 173.99 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d459e5ef-1a13-480b-b828-e831b92602d3")
 		)
@@ -7485,7 +7540,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7535,6 +7590,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 360.68 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 360.68 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7722,7 +7788,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7781,6 +7847,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 80.01 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc1fa823-4641-4e2a-b7ee-3c64b74c6700")
 		)
@@ -7802,7 +7879,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7852,6 +7929,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 317.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 317.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7934,6 +8022,17 @@
 			)
 		)
 		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+			(at 49.53 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "W25Q16JVSSIQ"
 			(at 49.53 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -8044,6 +8143,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 326.39 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f"
@@ -8137,7 +8247,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8153,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4k7"
 			(at 173.99 264.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,6 +8297,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 173.99 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 173.99 267.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8415,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8344,6 +8465,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 391.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 391.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8436,6 +8568,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 326.39 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f"
@@ -8451,7 +8594,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8502,6 +8645,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 96.52 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 96.52 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8611,7 +8765,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8661,6 +8815,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 401.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 401.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8888,7 +9053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8901,6 +9066,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 115.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B3F-1000"
+			(at 115.57 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +9107,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9000,6 +9176,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 186.69 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9b42887b-e126-432a-a851-791fb9df454b")
 		)
@@ -9021,7 +9208,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9081,6 +9268,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 306.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aafb2d3a-961d-4383-b483-4c05a0111127")
 		)
@@ -9102,7 +9300,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9171,6 +9369,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 186.69 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1797987c-9a0b-4939-9d4e-f5a7fe38e298")
 		)
@@ -9228,7 +9437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0805JRNPO9BN150"
 			(at 100.33 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -9241,6 +9450,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 100.33 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CC0805JRNPO9BN150"
+			(at 100.33 240.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,7 +9491,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9321,6 +9541,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 350.52 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 350.52 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9403,6 +9634,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 326.39 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 326.39 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -9557,6 +9799,17 @@
 			)
 		)
 		(property "Description" "150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23"
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "TPS3839K33DBZR"
 			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9963,6 +10216,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 326.39 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Motor_Driver"
 				(path "/73a47b03-d134-4703-ba74-88b80604f77f"
@@ -9978,7 +10242,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10028,6 +10292,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 332.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 332.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10491,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10266,6 +10541,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 340.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 340.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10452,7 +10738,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10502,6 +10788,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 317.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 317.5 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10648,7 +10945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0805JRNPO9BN150"
 			(at 100.33 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -10661,6 +10958,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 100.33 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CC0805JRNPO9BN150"
+			(at 100.33 257.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10769,7 +11077,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10819,6 +11127,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 381 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 381 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10928,7 +11247,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10988,6 +11307,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c12f34f-aac8-4f74-80cc-ec743add32ec")
 		)
@@ -11006,7 +11336,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11055,6 +11385,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 120.65 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 120.65 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,7 +11504,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11222,6 +11563,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 186.69 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11331,7 +11683,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11391,6 +11743,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 166.37 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a06db736-79ab-4bdc-a629-5648922198ed")
 		)
@@ -11409,7 +11772,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11470,6 +11833,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 193.04 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bcf72de-ebd7-4cfe-a9c1-72773209c787")
 		)
@@ -11488,7 +11862,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11539,6 +11913,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 193.04 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 193.04 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -11644,7 +12029,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11659,7 +12044,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 57.15 229.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,6 +12078,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 57.15 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 57.15 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11762,7 +12158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
 			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11775,6 +12171,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 90.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "B3F-1000"
+			(at 90.17 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12212,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11863,6 +12270,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 120.65 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "912464d0-9a1b-4b8b-949f-45790f7b3e49")
 		)
@@ -11884,7 +12302,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11899,7 +12317,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 53.34 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,6 +12351,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 53.34 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 53.34 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12002,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 113.03 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -12039,6 +12468,17 @@
 			(at 97.79 248.92 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "ABM8-272-T3"
+			(at 113.03 248.92 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font

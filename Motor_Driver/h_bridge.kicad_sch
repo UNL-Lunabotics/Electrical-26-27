@@ -5282,6 +5282,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "1729128"
+			(at 304.8 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffd20469-9d80-4bb4-8cdf-18f9b8474489")
 		)
@@ -5303,7 +5314,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5319,7 +5330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1u"
 			(at 117.856 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,6 +5364,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5618,7 +5640,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5635,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 86.36 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5679,6 +5701,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 83.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c08a9615-6c9d-4e31-8017-e735ff907b69")
 		)
@@ -5700,7 +5733,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5761,6 +5794,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 144.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1be6ff9a-c6b5-4fec-9473-7c7b761d5e36")
 		)
@@ -5783,7 +5827,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5800,7 +5844,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 152.4 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,6 +5888,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e220e11-a0d9-4cff-843f-db5f94bf2259")
 		)
@@ -5865,7 +5920,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5916,6 +5971,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 55.88 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5988,7 +6054,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
 			(at 356.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6023,6 +6089,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 356.87 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "MMBT3904LT1G"
 			(at 356.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6195,6 +6272,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "BZT52C15-E3-08"
+			(at 347.98 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "beebe84a-f6a7-449e-92bf-a757630ba4cc")
 		)
@@ -6216,7 +6304,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6232,7 +6320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 113.538 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,6 +6354,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 111.76 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6338,7 +6437,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6373,6 +6472,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "MMBT3904LT1G"
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6467,6 +6577,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "BZT52C15-E3-08"
+			(at 158.75 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5eade041-b1ad-4b2d-8539-7d4b0e07753a")
 		)
@@ -6529,7 +6650,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
 			(at 256.54 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6574,6 +6695,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "MMBT3904LT1G"
+			(at 256.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09d409e0-a0ab-4eb5-b035-a789773960a1")
 		)
@@ -6599,7 +6731,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6616,7 +6748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 341.63 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6650,6 +6782,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 339.09 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 339.09 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6732,6 +6875,17 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..18V supply, non-inverting, SOIC-8"
+			(at 115.57 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "UCC27524D"
 			(at 115.57 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +7028,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 237.49 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6895,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6908,6 +7062,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-072K2L"
+			(at 237.49 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7032,7 +7197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220μF"
+		(property "Value" "220u"
 			(at 108.458 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/SKV.pdf"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7066,6 +7231,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "25SKV220M8X10.5"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7273,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7112,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "100n"
 			(at 306.07 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,6 +7322,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 306.07 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 306.07 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,6 +7424,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "UCC27524D"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6ce484e-2410-4a2a-9b68-baaecfefb490")
 		)
@@ -7276,7 +7474,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7337,6 +7535,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 87.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "449ee9cf-8888-495d-9b39-d8d26c392afc")
 		)
@@ -7358,7 +7567,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7375,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 275.59 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,6 +7618,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 273.05 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 273.05 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7480,7 +7700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18532q5b.pdf"
 			(at 138.43 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7492,6 +7712,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 138.43 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CSD18532Q5B"
 			(at 138.43 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7542,7 +7773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220μF"
+		(property "Value" "220u"
 			(at 297.688 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,7 +7795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/SKV.pdf"
 			(at 299.72 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7576,6 +7807,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 299.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "25SKV220M8X10.5"
 			(at 299.72 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7645,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88983/ss10p4.pdf"
 			(at 317.5 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7658,6 +7900,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 317.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SS10P4-M3/86A"
+			(at 317.5 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,7 +8097,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7895,6 +8148,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 179.07 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18532q5b.pdf"
 			(at 327.66 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7978,6 +8242,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 327.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CSD18532Q5B"
 			(at 327.66 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8012,7 +8287,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8073,6 +8348,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 334.01 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8870fc94-0a9b-4ea3-91e2-aa10a9cced26")
 		)
@@ -8110,7 +8396,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 378.46 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +8417,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 378.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8144,6 +8430,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 378.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-072K2L"
+			(at 378.46 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +8626,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8390,6 +8687,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 368.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1d595a6-3c06-48ac-9da2-e4cc952023b3")
 		)
@@ -8411,7 +8719,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8427,7 +8735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 312.674 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,6 +8779,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 312.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60de69cf-8e9f-485d-9975-905b373b74e1")
 		)
@@ -8492,7 +8811,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8508,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1u"
 			(at 293.878 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8542,6 +8861,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 293.37 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 293.37 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8589,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "10"
 			(at 81.28 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,6 +8953,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-0710RL"
+			(at 81.28 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +9010,7 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "10"
 			(at 152.4 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,6 +9044,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-0710RL"
+			(at 152.4 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,6 +9145,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "BZT52C15-E3-08"
+			(at 265.43 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff346779-a863-49dc-94d4-42bc586e20a4")
 		)
@@ -8830,7 +9193,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 48.26 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +9214,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 48.26 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8864,6 +9227,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 48.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-072K2L"
+			(at 48.26 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +9307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62806/sqj407ep.pdf"
 			(at 284.48 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8945,6 +9319,17 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
+			(at 284.48 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SQJ407EP-T1_GE3"
 			(at 284.48 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8979,7 +9364,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9040,6 +9425,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 245.11 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cda9fe9-f355-4ea4-a375-f28ba4934c6e")
 		)
@@ -9061,7 +9457,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9077,7 +9473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 123.444 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9111,6 +9507,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9979,6 +10386,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "1729128"
+			(at 115.57 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b4acf6b-e779-4163-abbf-875ed5ba245c")
 		)
@@ -10060,6 +10478,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "BZT52C15-E3-08"
+			(at 76.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c671c18-d7c5-465d-b8e3-098e6c0d2f84")
 		)
@@ -10119,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62806/sqj407ep.pdf"
 			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10131,6 +10560,17 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SQJ407EP-T1_GE3"
 			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10258,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "10"
 			(at 270.51 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10292,6 +10732,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 270.51 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-0710RL"
+			(at 270.51 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +10812,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62806/sqj407ep.pdf"
 			(at 95.25 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10373,6 +10824,17 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
+			(at 95.25 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SQJ407EP-T1_GE3"
 			(at 95.25 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10407,7 +10869,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10456,6 +10918,17 @@
 		)
 		(property "Description" "test point"
 			(at 306.07 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 306.07 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +10994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/62806/sqj407ep.pdf"
 			(at 327.66 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10533,6 +11006,17 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
+			(at 327.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SQJ407EP-T1_GE3"
 			(at 327.66 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10684,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18532q5b.pdf"
 			(at 284.48 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10696,6 +11180,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 284.48 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CSD18532Q5B"
 			(at 284.48 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10746,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "10"
 			(at 341.63 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,6 +11275,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 341.63 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-0710RL"
+			(at 341.63 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10849,7 +11355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18532q5b.pdf"
 			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10861,6 +11367,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 95.25 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "CSD18532Q5B"
 			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10895,7 +11412,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10911,7 +11428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1u"
 			(at 307.086 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,6 +11462,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 306.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11054,7 +11582,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11070,7 +11598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 301.752 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,6 +11632,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 300.99 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 300.99 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11173,7 +11712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88983/ss10p4.pdf"
 			(at 105.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11186,6 +11725,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 105.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SS10P4-M3/86A"
+			(at 105.41 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11216,7 +11766,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11232,7 +11782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1u"
 			(at 105.156 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,6 +11816,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
 			(at 104.14 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +11899,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
 			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11383,6 +11944,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" "MMBT3904LT1G"
+			(at 67.31 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2a85167-5dc5-48ae-b480-aa8aa27a60eb")
 		)
@@ -11407,7 +11979,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11422,7 +11994,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "100n"
 			(at 116.84 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,6 +12028,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 116.84 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +12107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88983/ss10p4.pdf"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11537,6 +12120,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 294.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SS10P4-M3/86A"
+			(at 294.64 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,7 +12161,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11628,6 +12222,17 @@
 				)
 			)
 		)
+		(property "Digikey_ID" ""
+			(at 276.86 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a943279d-6b85-4733-9ddb-979306a1e6de")
 		)
@@ -11665,7 +12270,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 189.23 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11686,7 +12291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11699,6 +12304,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 189.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "RC0805FR-072K2L"
+			(at 189.23 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +12539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88983/ss10p4.pdf"
 			(at 128.27 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11936,6 +12552,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 128.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" "SS10P4-M3/86A"
+			(at 128.27 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +12593,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12015,6 +12642,17 @@
 		)
 		(property "Description" "test point"
 			(at 116.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_ID" ""
+			(at 116.84 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
