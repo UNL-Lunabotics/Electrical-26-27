@@ -878,19 +878,19 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -927,6 +927,36 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey_ID",
+          "name": "Digikey_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_VOUT",
+          "name": "KLC_S4.2_VREG_VOUT",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -934,7 +964,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
